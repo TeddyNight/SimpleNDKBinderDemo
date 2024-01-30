@@ -2,6 +2,8 @@
 ![](result.png)
 **Caution: `AServiceManager_getService()` isn't stable ABI**
 
+This demo has been tested on **Android 11**. If you want to run on different Android version, you have to figure out the transact code of `broadcastIntent` in `IActivityManager.aidl`.
+
 ## Introduction
 This is a simple demo shows one possible way that two processes or more can do binder IPC purely using NDKBinder **without the help of JNI**.
 
